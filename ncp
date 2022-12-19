@@ -1,0 +1,28 @@
+package sistemaenergia;
+
+public class PessoaFisica  extends Cliente{
+	
+	private String CPF;
+
+	public String getCPF() {
+		return CPF;
+	}
+
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+	
+   public String toString() {
+	String texto = "";
+		
+		texto = "----------------------------"
+				+"\n Rua: " + getClienteid()
+				+"\n Rua: " + getCPF()
+				+"\n CEP: " + getNome()
+				+"\n Cidade: " + getendereço();
+		
+		return texto;
+				
+	
+	}
+}
