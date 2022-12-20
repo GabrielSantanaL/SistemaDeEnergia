@@ -16,12 +16,8 @@ public class PessoaFisica  extends Cliente{
 	String texto = "";
 		
 		texto = "----------------------------"
-				+"\n Rua: " + getRua()
-				+"\n Rua: " + getNumero()
-				+"\n CEP: " + getCep()
-				+"\n Cidade: " + getCidade()
-				+"\n Estado: " + getEstado();
-		
+				+"\n CPF: " + getCPF();
+				
 		return texto;
 				
 	

@@ -23,7 +23,7 @@ public class Endereco {
 		return Cep;
 	}
 	public void setCep(String cep) {
-		Cep = cep;
+		this.Cep = cep;
 	}
 	public String getCidade() {
 		return Cidade;

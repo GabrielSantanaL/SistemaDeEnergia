@@ -1,6 +1,6 @@
 package sistemaenergia;
 
-public class Cliente {
+public class Cliente extends Endereco {
 	
 	private int Clienteid;
 	private String nome;
@@ -14,16 +14,16 @@ public class Cliente {
 		Clienteid = clienteid;
 	}
 	public String getNome() {
-		return Nome;
+		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Endereço getendereço() {
-		return Endereço;
+	public Endereco getendereço() {
+		return endereço;
 	}
-	public void setEndereço(Endereço endereço) {
-		Endereço = endereço;
+	public void setEndereço(Endereco endereço) {
+		this.endereço = endereço;
 	}
 	
 
