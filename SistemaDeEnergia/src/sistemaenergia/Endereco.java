@@ -9,6 +9,7 @@ public class Endereco {
 	private String Estado;
 	public String getRua() {
 		return Rua;
+	
 	}
 	public void setRua(String rua) {
 		Rua = rua;
